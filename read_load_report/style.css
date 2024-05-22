@@ -24,6 +24,13 @@
 
 .container {
     display: flex;
+    background-color: #cdf6cd;
+}
+
+div {
+    padding: 0.5em;
+    border: 1px solid black;
+    background-color: #d2d9ee;
 }
 
 .container-row {
@@ -64,6 +71,12 @@
     margin-bottom: 0.5em;
 }
 
+h1 {
+    display: block;
+    text-align: center;
+    text-decoration: underline;
+    /* font-size: 2em; */
+}
 
 /* ***** GENERAL STYLES END ***** */
 

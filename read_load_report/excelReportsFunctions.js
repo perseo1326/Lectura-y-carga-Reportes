@@ -65,7 +65,7 @@ class ExcelFileOpen {
             console.log("ERROR:validateMymeType: El tipo de archivo MIME no se reconoce como válido.");
             throw new Error("El tipo de archivo MIME no se reconoce como válido.");
         }
-        console.log("Validado Myme type y extensión del archivo.");
+        console.log("Validado OK Myme type y extensión del archivo.");
     }
 
     

@@ -2,13 +2,29 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="autor" content="https://github.com/perseo1326" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estructura para lectura y carga de datos de Excel</title>
     <link rel="stylesheet" href="./read_load_report/style.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container-column">
         <h1>Carga y lectura de reportes en Excel</h1>
+
+        <div>
+            <label for="load-report">Cargar Reporte</label>
+            <input type="file" name="load-report" id="load_report-button">
+        </div>
+
+        <div id="data">
+
+        </div>
     </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+    <script src="./read_load_report/excelReportsFunctions.js"></script>
+    <script src="./read_load_report/app.js"></script>
+
 </body>
 </html>
